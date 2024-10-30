@@ -1,13 +1,18 @@
-# Module 1 - Assignment
-## Checkpoint 1
+>This website is built with HTML & CSS. This website aims to provide a better information for future customers while also making it easier to book a sailing trip at Komodo National Park and to perform online payment.
 
-> This website is to highlight some of my journey in learning about Full Stack. 
+## Technologies used
+- HTML5
+- CSS
 
-About Me:
-- Hello, world! I'm Ef!
-- I may not be the youngest, but still hungry to learn something new to keep my brain young just as what Henry Ford said: 
+## Features
+- A simple yet responsive design.
+- Easy navigation on the header.
+- Call to Action button on Main Article
+- Contact form provided.
+- Footer with copyright.
+- Direct online booking (TBA)
+- Direct online payment system (TBA)
 
+## Draft Layout:
+![Draft](./asset/draft.png)
 
-![quotes](https://miro.medium.com/v2/resize:fit:1400/1*S_-TGSRDRxFY7vi_bokLvw.png)
-
-# RevoU-Assignment
