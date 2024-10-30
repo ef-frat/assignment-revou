@@ -1,0 +1,40 @@
+
+/* ??do we have to write the code in alphabetical order?? */
+
+.btn {
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body {
+    background-color: #fef4eb;
+}
+
+header {
+    background-color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+hr {
+    border:none;
+    height: 2px;
+    background:rgb(1, 149, 149);
+}
+
+main{
+    background-image: url(/asset/main1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: darkgrey;
+    color: aliceblue ;
+}
+
+h6 {
+    font-size: small;
+    font-weight: bold;
+    color: navy;
+}
