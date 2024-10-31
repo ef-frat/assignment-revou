@@ -12,26 +12,48 @@ body {
     background-color: #fef4eb;
 }
 
+/* masih perlu dibagi pakai flex & sticky untuk bagian header */
 header {
-    background-color: #ffffff;
-    border: 1px solid gray;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    background-color: #019595;
+    padding: 10px 50px;
+    border: 2px solid gray;
     border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    /* untuk atur font di header */
+    color:#ffffff;
+    font-family: verdana;
+    font-weight: bolder;
 }
 
 hr {
     border:none;
     height: 2px;
-    background:rgb(1, 149, 149);
+    background:#019595;
 }
 
-main{
+main {
     background-image: url(/asset/main1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: darkgrey;
-    color: aliceblue ;
+    color: #fefefe ;
+    font-weight: bolder;
+    font-style: oblique;
 }
+/* ini masih perlu ditata */
+/* .container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 
 h6 {
     font-size: small;
