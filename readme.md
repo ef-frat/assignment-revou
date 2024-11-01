@@ -14,7 +14,5 @@
 - Direct online booking (TBA)
 - Direct online payment system (TBA)
 
-## Draft Layout:
-![Draft](./asset/draft.png)
-
-# assignment
+## Link for the website:
+https://ef-frat.github.io/assignment-revou/
