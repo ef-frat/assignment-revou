@@ -10,52 +10,66 @@
     </head>
 
     <body>
-        <header class="container-header"> 
-            <!-- Di sini mungkin bisa ditaruh logo? -->
-            <div class="home">HOME</div> 
-            <div class="trips">TRIPS</div>
-            <div class="rates">RATES</div>
-            <div class="schedule">SCHEDULE</div>
+        <header>
+            <nav>
+                <a class="nav" id="1" href="#">HOME</a>
+                <a class="nav" id="2" href="#">TRIPS</a>
+                <a class="nav" id="3" href="#">RATES</a>
+                <a class="nav" id="4" href="#">SCHEDULE</a>
+            </nav>
+
+            <!-- Testing for responsive header on mobile dimension -->
+            <div class="header-mobile">
+            <h1>Welcome to our boat!</h1>
+            </div>
         </header>
+
+        <hr>
+
+        <main>
+            <div class="section"_id="1">
+                <img src="./asset/main1.jpg" width="100%" height="auto">
+                <h1>Let's start your sailing journey!</h1>
+                <button class="btn btn-here"> Here </button>
+            </div>
             <hr>
+            <div class="section"_id="2">
+                <h1>Sailing Itinerary</h1>
+                <h3>(coming soon)</h3>
+            </div>
+            <hr>
+            <div class="section"_id="3">
+                <h1>Rates</h1>
+                <h3>(coming soon)</h3>
+            </div>
+            <hr>
+            <div class="section"_id="4">
+                <h1>Our availability</h1>
+                <h3>(coming soon)</h3>
+            </div>
+        </main>
 
-         <!-- BELOW IS THE MAIN BODY OF THE WEBSITE -->
-       <main class="container-main">
-        <br><br><br>
-            <h2> Let's start </h2>
-            <h2> your sailing journey! </h2>
+        <hr>
+            <h2>Need more information?</h2>
             <form action="" method="post">
-            <button class="btn btn-here"> Here </button>
-        <br><br><br>
-        </main> <hr>
-
-        <form action="" method="post">
-            <label> Contact us? </label><br/>
-            <textarea id="name" placeholder="Your Name"></textarea>
-            <br>
-            <textarea id="email" placeholder="Your Email"></textarea>
-            <br>
-            <textarea id="comments" name="comments" placeholder="Let us know if you have any questions."></textarea>
-            <br/>
-            <p>Are you?</p>
-            <input type="radio" id="new" name="customer" value="NEW">
-            <label for="new">New Customer</label><br>
-            <input type="radio" id="old" name="customer" value="OLD">
-            <label for="old">Returning Customer</label><br><br>
-            <button type="submit" class="btn btn-submit"> Submit </button>
-        </form>
-
+                <label> Please fill this form: </label><br/>
+                <textarea id="name" placeholder="Your Name"></textarea>
+        <br>
+                <textarea id="email" placeholder="Your Email"></textarea>
+        <br>
+                <textarea id="comments" name="comments" placeholder="Let us know if you have any questions."></textarea>
+        <br/>
+                <p>Are you?</p>
+                <input type="radio" id="new" name="customer" value="NEW">
+                <label for="new">New Customer</label><br>
+                <input type="radio" id="old" name="customer" value="OLD">
+                <label for="old">Returning Customer</label><br><br>
+                <button type="submit" class="btn btn-submit"> Submit </button>
+            </form>
         <hr><br>
 
-        <!-- Buat ngecek sticky position -->
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-        <!-- FOOTER -->
-        <footer>
+        <!-- ??? How to make the footer stays at the bottom of the viewing page? -->
+        <footer class="footer">
             <p> © 2024 - Dahayu. All right reserved. </p>
         </footer>
     </body>

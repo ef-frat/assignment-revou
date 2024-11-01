@@ -1,6 +1,36 @@
 
 /* ??do we have to write the code in alphabetical order?? */
 
+
+body {
+    background-color: #fef4eb;
+    margin: 10;
+    padding: 10;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #007d7d;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #019595;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav {
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
 .btn {
     border: none;
     color: whitesmoke;
@@ -8,55 +38,55 @@
     font-weight: bold;
 }
 
-body {
-    background-color: #fef4eb;
+html {
+    height: 100%;
 }
 
-/* masih perlu dibagi pakai flex & sticky untuk bagian header */
-header {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-
-    background-color: #019595;
-    padding: 10px 50px;
-    border: 2px solid gray;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    /* untuk atur font di header */
-    color:#ffffff;
-    font-family: verdana;
-    font-weight: bolder;
+.section {
+    height: 100%;
+    padding-top: 20px;
 }
 
 hr {
     border:none;
     height: 2px;
-    background:#019595;
+    background:#00c0c0;
+}
+
+h2 {
+    font-size: larger;
+    font-weight: bold;
+    color: #f59518;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: bold;
+    color: #979797;
 }
 
 main {
-    background-image: url(/asset/main1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: darkgrey;
-    color: #fefefe ;
-    font-weight: bolder;
-    font-style: oblique;
+    flex: 100
 }
-/* ini masih perlu ditata */
-/* .container-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
-h6 {
-    font-size: small;
-    font-weight: bold;
-    color: navy;
+footer {
+   text-align: center;
+   font-weight:lighter;
+    color:#007d7d;
+    margin: 0;
+}
+
+.header-mobile {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+    header {
+        background-color:#fef4eb;
+    }
+    .header-mobile {
+        display:block;
+    }
 }
