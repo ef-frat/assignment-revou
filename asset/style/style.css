@@ -7,7 +7,7 @@ body {
     margin: 10;
     padding: 10;
     height: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
     color: #007d7d;
     font-weight: bolder;
     font-style: normal;
@@ -15,8 +15,7 @@ body {
 
 header {
     position: sticky;
-    top: 0;
-    z-index: 10;
+    top: 12px;
     background-color: #019595;
     padding: 10px 20px;
     border: 2px solid #ffffff;
@@ -25,9 +24,9 @@ header {
     justify-content: space-evenly;
 }
 
-.nav {
+.nav-list {
     color: #ffffff;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Courier New';
     font-weight: bold;
 }
 
@@ -36,10 +35,6 @@ header {
     color: whitesmoke;
     cursor: pointer;
     font-weight: bold;
-}
-
-html {
-    height: 100%;
 }
 
 .section {
@@ -80,11 +75,16 @@ footer {
     display: none;
 }
 @media screen and (max-width: 600px) {
-    .nav {
+    .nav-list {
         display: none;
     }
     header {
         background-color:#fef4eb;
+        font-size: small;
+        text-align: center;
+        padding: 10;
+        justify-content: left;
+        border: 2px solid #f59518;
     }
     .header-mobile {
         display:block;
